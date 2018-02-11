@@ -1,0 +1,37 @@
+.navbar {
+  background-color: #2f1f1f;
+  padding-left: 43rem;
+}
+
+#slider {
+  margin-top: $margin-slider;
+}
+
+#seccion-1 {
+  margin-top: $margin-seccion1;
+  background-color: #e9e0b7;
+  padding-bottom: 4em;
+  .pad-img{
+    padding-left: 1.5em;
+    img {
+      @include border-img();
+    }
+  }
+  h4 {
+    text-align: center;
+    padding-top: $margin-txt;
+  }
+  p {
+    text-align: center;
+    padding-top: $margin-txt;
+    padding-bottom: 1em;
+  }
+  a {
+    margin-left: 7.5em;
+    text-decoration: none;
+    color: #000;
+    background-color: #dbbe86;
+    padding: 1px;
+    font-size: 0.8em;
+  }
+}
