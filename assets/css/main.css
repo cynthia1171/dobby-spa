@@ -5828,4 +5828,46 @@ button.close {
     padding: 1px;
     font-size: 0.8em; }
 
+#section-2 {
+  padding: 2em; }
+  #section-2 .img-dos img {
+    width: 20em !important;
+    margin-top: 3em; }
+  #section-2 .text-dos h3 {
+    color: #d86c3e;
+    text-align: center; }
+  #section-2 .text-dos #texto {
+    padding-top: 1em;
+    padding-bottom: 1em; }
+  #section-2 .text-dos ul li {
+    list-style: none; }
+    #section-2 .text-dos ul li p {
+      margin-left: -3em; }
+      #section-2 .text-dos ul li p span {
+        padding-right: 12px;
+        color: #8d6a54; }
+
+#section-3 {
+  background-color: #4a3a3a;
+  padding: 2em; }
+  #section-3 #texto-about {
+    color: #fbdca5;
+    text-align: right; }
+    #section-3 #texto-about img {
+      padding: 1em; }
+  #section-3 #texto-gift {
+    color: #fbdca5;
+    text-align: left; }
+    #section-3 #texto-gift img {
+      padding: 1em; }
+
+footer {
+  background-color: #2f1f1f;
+  margin-top: -2.5em;
+  color: #fadc84; }
+  footer img {
+    border-radius: 100%;
+    border: 3px solid #df8560;
+    background-color: #bfb68d; }
+
 /*# sourceMappingURL=main.css.map */
